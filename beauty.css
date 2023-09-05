@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 80px 0px;
+    position: fixed;
+    top: 0;
+    left: 900x;
+    right: 0;
+    z-index: 100;
+  }
+  ul,li{
+    display: inline-block;
+  margin-right: 50px;
+  text-align: right;
+  font-size: large;
+  font-family: cursive;
+  }
+  li{
+    cursor: pointer;
+  }
+  .order{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 160px;
+    cursor: pointer;
+    position: absolute;
+  }
+.square{
+    width:550px;
+    height: 316px;
+    background-image: url(IMG/dunniImages/flower_crown.jpg);
+    position: absolute;
+    top: 800px;
+    left: 20px;
+    border-radius: 10px;
+}
+.square_two{
+  width: 1255px;
+  height: 500px;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  border-radius: 10px;
+  background-color: white;  
+}
+.square_three{
+    width: 1240px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    background-color: white;
+}
+.square_four{
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 350px;
+    background-color: lightpink;
+}
+.gift_card{
+    color: #E8CCCC;
+    font-size: xxx-large;
+    position: absolute;
+    top: 900px;
+    left: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.for_you{
+    font-family:cursive ;
+    color: #E8CCCC;
+    font-size: x-large;
+    position: absolute;
+    top: 955px;
+    left: 190px;
+}
+.right{
+    background-image: url(IMG/dunniImages/roseses.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.left{
+    background-color: white;
+}
+.pink_check{
+    width: 600px;
+    height: 500px;
+    margin-top: 500px;
+    margin-left: 80px;
+    position: absolute;
+}
+.green_check{
+    width: 636.5px;
+    height: 500px;
+    margin-top: 500px;
+    margin-left:682px;
+    position: absolute;
+}
+.red_lips{
+    width: 190px;
+    height: 200px;
+    position: absolute;
+    margin-top: 625px;
+    margin-left: 255px;
+    border-radius: 100px;
+}
+.service{
+    color: black;
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.your_skin{
+    color: black;
+    font-size: large;
+    position: absolute;
+    top: 165px;
+    left: 75px;
+}
+.right{
+float: left;
+background-image: url(IMG/dunniImages/roseses.jpg);
+height: 499.5px;
+width: 505px;
+position: absolute;
+left: 800px;
+top: 70px;
+filter: brightness(0.20);
+}
+.image{
+    width: 225px;
+    height: 290px;
+    position: absolute;
+left: 945px;
+top: 195px;
+}
+button{
+    border-radius: 20px;
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 259px;
+    position: absolute;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.manicure{
+    color: black;
+    font-size: xx-large;
+    position: absolute;
+    top: 600px;
+    left: 725px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.treat{
+    color: black;
+    font-size:large ;
+    position: absolute;
+    top: 660px;
+    left: 725px;
+}
+button{
+    position: absolute;
+    left: 649px;
+    top: 500px;
+}
+.learn{
+    position: absolute;
+    left: 0px;
+    top: 1px ;
+}
+.rosy_lips{
+    width: 530px;
+    height: 300px;
+    top: 1000px;
+    left: 350px;
+    position: absolute;
+}
+.awaken{
+    position: absolute;
+    top: 1015px;
+    left: 897px;
+    font-size: 50px;
+}
+.experience{
+    position: absolute;
+    top: 1140px;
+    left: 897px;
+}
+.silver{
+    position: absolute;
+    top: 1200px;
+    left:1320px;
+    width: 100px;
+    height: 100px;
+}
+.about_us{
+height: 100vh;
+position: absolute;
+top: 2000px;
+}
+.home{
+  
+    background-repeat:no-repeat;
+     height: 135vh;
+  }
+  .home_content{
+    width: 60vw;
+  }
+  a{
+    text-decoration: none;
+  }
+  .about{
+    height: 100vh;
+    padding-top: 50px;
+    background-color: white;
+  }
+  .aboutMe_content{
+    justify-content: center;
+    align-items: center;
+  }
+  .discover{
+    font-size:90px;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #0C3A67;
+  }
+  .chill{
+margin-top:25px;
+margin-left: 80px;
+  }
+  .king{
+    color: black;
+    background-color: whitesmoke;
+  }
+  .appointment{
+    color: white;
+    background-color: goldenrod;
+    top: 1450px;
+    left:0px;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 235px;
+  }
+  .view{
+    color: black;
+    background-color: whitesmoke;
+    top: 1450px;
+    left:270px;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 150px;
+  }
+  .glitter{
+    margin-left: 1451px;
+    position: absolute;
+    margin-top: -245px;
+    height: 600px;
+    width: 450px;
+  }

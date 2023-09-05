@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  padding-left: 1200px;
+}
+ul,li{
+  display: inline-block;
+padding-right: 20px;
+margin-right: 10px;
+text-align: right;
+font-size: medium;
+}
+nav{
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+button{
+width: 110px;
+color: brown;
+background-color: burlywood;
+border-radius: 10px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.center{
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  text-shadow: 2px 2px 5px gold;
+  text-align: center;
+  font-size: xxx-large;
+  font-family:Pacifio;
+}
+.fresh_delivery{
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  text-shadow: 2px 2px 5px lightpink;
+  text-align: center;
+  font-size: 50px;
+  font-family:"lobster";
+}
+p{
+  position: absolute;
+  top: 29%;
+  left: 0%;
+  padding: 0%;
+  font-size: larger;
+  color: white;
+  text-align: left;
+  font-family: "Dancing Script";
+  text-shadow: 2px 2px 5px bisque;
+  line-height: 2;
+}
+.order_now{
+  color: #4b301e;
+  border-radius: 10px;
+  border: 2px#FFE6A7;
+  width: 115px;
+  background-color: #FFE6A7;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 3.5%;
+  transform: translate(-50%, -50%);
+}
+.our_menu{
+  color: #4b301e;
+  border-radius: 10px;
+  border: 2px#FFE6A7;
+  width: 115px;
+  background-color: #FFE6A7;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+}

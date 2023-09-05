@@ -1,0 +1,222 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0px 80px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+ul,li{
+  display: inline-block;
+margin-right: 50px;
+text-align: right;
+font-size: large;
+font-family: cursive;
+}
+li{
+  cursor: pointer;
+}
+.portfolio_image{
+  width: 100px;
+  height: 70px;
+}
+@media only screen and (max-width: 780px) {
+  .home {
+    background-color: black;
+    /* color: red; */
+  }
+  .home_content{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .beautiful{
+    display: none;
+  }
+}
+@media only screen and (min-width: 780px) {
+  
+  .home{
+    background-color: #E1E5E8;
+     height: 100vh;
+     /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_content{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .beautiful{
+    width: 400px;
+    height: 400px;
+    background-color: #E1E5E8;
+    border-radius: 8px;
+  }
+}
+button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  background-color: orangered;
+  border: 1px orangered;
+  color: white;
+  width: 160px;
+  cursor: pointer;
+}
+
+
+.basx{
+  color: #E29694;
+}
+h1{
+  font-size: xxx-large;
+  color: #042B5E;
+  margin-top: 32px;
+}
+.about_me{
+  color: black;
+}
+.goat{
+  margin-top: 30px;
+}
+.hire_me{
+  border: 2px solid #E29694;
+  background-color: #E1E5E8;
+  color: #042B5E;
+  margin-left: 20px;
+}
+.about{
+  height: 100vh;
+  padding-top: 50px;
+  background-color: white;
+}
+.aboutMe_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.me{
+  text-align: center;
+}
+.services{
+  height: 100vh;
+  padding-top: 65px;
+  font-size: xxx-large;
+  background-color:#E1E5E8 ;
+}
+.services_content{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.honor{
+  text-align: center;
+}
+.portfolio{
+  height: 100vh;
+  background-color: white;
+  padding-top: 70px;
+  font-size: xxx-large;
+}
+.portfolio_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folio{
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+.contact{
+  height: 100vh;
+  padding-top: 70px;
+  font-size: xxx-large;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tactus{
+  text-align: right;
+}
+.well_done{
+  margin-bottom:10px;
+  text-align: center;
+}
+.right_contact{
+  background-color: #FF4500;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.left_contact{
+  background-color: black;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact_text{
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+.i_reply{
+  font-size: small;
+  text-align: center;
+  color: #A8A9A9;
+  margin-top: 20px;
+}
+.email{
+  color: gold;
+  background-color: gold;
+  /* margin-left: 400px; */
+  margin-top: 30px;
+}
+.contact_me{
+  text-align: right;
+  margin-right: 150px;
+  font-size: 115px
+}
+.input_contents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  width: 600px;
+  height: 40px;
+  margin-top: 25px;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+}
+.submit{
+  background-color: white;
+  color: #042B5E;
+  margin-top: 45px;
+  width: 270px;
+}
